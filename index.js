@@ -1,3 +1,8 @@
+// tickets are considered lucky if the left and right side from the median equate
+// this function checks to see if any number is considered lucky
+//please try yourself and happy coding.
+
+
 function luckCheck(ticket) {
    if (/^[0-9]+$/.test(ticket)) {
     let arr = ticket.split("");
